@@ -1,0 +1,27 @@
+.navbar-glass {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 1000;
+}
+
+.nav-logo-img {
+  height: 30px;
+}
+
+.nav-links a {
+  font-family: 'inter', sans-serif;
+  margin-left: 40px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
